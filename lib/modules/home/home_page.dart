@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           ModuleTile(
             icon: Icons.sync_alt,
-            label: "Comparativo de Entradas ",
+            label: "Comparativo de Entradas",
             onTap: () {
               openPage(const ComparisionPage());
             },
